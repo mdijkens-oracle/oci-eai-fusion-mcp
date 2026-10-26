@@ -1,0 +1,6 @@
+# Versions already present in the existing MCPserver environment on 2026-10-22.
+fastmcp==2.14.7
+httpx==0.28.1
+openai==3.6.0
+python-dotenv==1.2.3
+uvicorn==0.52.4

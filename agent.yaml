@@ -1,0 +1,37 @@
+schema_version: 2
+name: fusionmcp
+build:
+  context: .
+  dockerfile: Dockerfile
+publish:
+  repository: agents/fusionmcp
+deploy:
+  application_name: FusionMCP
+  profile: public-noauth
+runtime:
+  env:
+    - name: GENAI_REGION
+      from_env: GENAI_REGION
+    - name: GENAI_API_KEY
+      from_env: GENAI_API_KEY
+    - name: GENAI_PROJECT_ID
+      from_env: GENAI_PROJECT_ID
+    - name: GENAI_MODEL
+      from_env: GENAI_MODEL
+    - name: FUSION_BASE_URL
+      from_env: FUSION_BASE_URL
+    - name: FUSION_USERNAME
+      from_env: FUSION_USERNAME
+    - name: FUSION_PASSWORD
+      from_env: FUSION_PASSWORD
+    - name: FUSION_WORKFLOW
+      from_env: FUSION_WORKFLOW
+verify:
+  - method: GET
+    path: /
+    expect_status: 200
+  - method: GET
+    path: /ready
+    expect_status: 200
+    expect_json:
+      status: ready

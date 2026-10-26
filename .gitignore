@@ -1,0 +1,31 @@
+.env
+.env.*
+!.env.example
+.local/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.conda/
+dist/
+*.log
+
+# Local video production masters are not application source.
+video/
+
+# Personal operator records and local assistance/export tools.
+/AGENTS.md
+/PROJECT_SETUP.md
+/agent-spec.md
+/export_project.py
+
+# Local authentication material and generated media/archives.
+.oci/
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+*.7z
+*.mp4
+*.wav

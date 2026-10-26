@@ -1,0 +1,11 @@
+{
+  "agents": [
+    {
+      "tool": "ask_fusion_agent",
+      "title": "Fusion demo agent",
+      "workflow_env": "FUSION_WORKFLOW",
+      "description": "Ask the published Fusion AI Agent Studio demo workflow a question. Returns the actual Fusion result. Use job_id to resume a pending job without submitting again."
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+.env
+.env.*
+.git
+.local
+__pycache__
+.pytest_cache
+tests
+*.md
+*.log
+
+# Local video production masters are not application source.
+video/
+dist/
