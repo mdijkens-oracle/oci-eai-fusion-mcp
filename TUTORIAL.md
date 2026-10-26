@@ -84,7 +84,8 @@ Share the repository URL once published. Each reader supplies their own named
 Conda environment fusionmcp, private .env, OCI resources and published Fusion
 workflow. Keep local settings, release records and video assets out of Git.
 
-The EAI walkthrough video will be linked from README.md once published.
+The [EAI walkthrough video](https://www.youtube.com/watch?v=VE-5-ucNIQ0)
+is linked from README.md, alongside the related DAC with Fusion architecture video.
 The ODA-to-Fusion walkthrough belongs to the separate ODA integration example.
 
 ## References

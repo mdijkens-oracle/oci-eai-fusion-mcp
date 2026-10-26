@@ -24,8 +24,13 @@ No separate Node.js build or database is required.
 
 ## Demo video
 
-An EAI-to-Fusion walkthrough video has been recorded. A link will be added once
-it is published. Video files and production assets are kept outside this repository.
+[Watch the EAI-to-Fusion walkthrough on YouTube](https://www.youtube.com/watch?v=VE-5-ucNIQ0).
+
+The Fusion workflow shown is an example. Supply your own published workflow;
+the recorded demo does not provide access to that workflow or environment.
+
+Related video: [DAC with Fusion](https://www.youtube.com/watch?v=Qy8zR7_i_u4)
+provides additional architecture context.
 
 ## Prerequisites
 
