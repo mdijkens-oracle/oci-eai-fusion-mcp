@@ -19,6 +19,14 @@ video/
 /agent-spec.md
 /export_project.py
 
+# Personal backup/restore files are separate from the public project.
+/Archive-*
+/Project-*
+/PROJECT-ARCHIVE.md
+/CODEX-HANDOFF.md
+/Clean-Project.ps1
+/Restore-*.ps1
+
 # Local authentication material and generated media/archives.
 .oci/
 *.pem
